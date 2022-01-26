@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Education Gallery</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <div class="logo">
+                    <h>Education<br>Gallery</h>
+                    </div>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME&nbsp;&nbsp;</a></li>
+                        <li><a href="index2.html">ABOUT&nbsp;&nbsp;</a></li>
+                        <li><a href="index4.html">COURSE &nbsp;&nbsp;</a></li>
+                        <li><a href="index6.html">OPPORTUNITIES &nbsp;&nbsp;</a></li>
+                        <li><a href="index8.html">CONTACT </a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Grow your Career</h1>
+                <p>Now making career become easy. 
+                    <br>This Plateform can give wing to your Career.
+                </p>
+                <a href="index2.html" class="hero-btn">visit Us To know More</a>
+            </div>
+            
+        </section>
+
+        <!---------course------>
+
+        <section class="course">
+            <h1>Diversions for growth</h1>
+            <p>Paths to go for growth.</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3><a href="index6.html">OPPORTUNITIES</a></h3>
+                    <p>This navigation can provide the various vaccancies, Admit cards and forms to grow our Career. </p>
+                </div>
+                <div class="course-col">
+                    <h3><a href="index4.html">Useful Plateforms for Courses</a></h3>
+                    <p>Here we get Various plateforms to learn various courses.</p>
+                </div>
+                <div class="course-col">
+                    <h3><a href="https://www.youtube.com/channel/UCmg6W4OaOpJt3SBCS0N6kfA">Expert Talks</a></h3>
+                    <p>This Navigation helps the people to skillup in various areas by listening Expert Advice.
+                        It iss startedd by unacedmy, where experts share their Experience.
+                    </p>
+                </div>
+            </div>
+            <!----------Sector------->
+            <section class="Sector">
+                <h1>Popular Sectors of Career</h1>
+                <p>Engineering, Medical and Civil sector is most known sector of career.</p>
+
+                <div class="row">
+                    <div class="Sector-col">
+                        <img src="images/engineering.jpg">
+                        <div class="layer">
+                            <h3><a href="index4.html">Engineering</a></h3>
+                        </div>
+                    </div>
+                    <div class="Sector-col">
+                        <img src="images/Medical.png">
+                        <div class="layer">
+                            <h3><a href="index4.html">Medical</a></h3>
+                        </div>
+                    </div>
+                    <div class="Sector-col">
+                        <img src="images/ias.jpg">
+                        <div class="layer">
+                            <h3><a href="index4.html">Civil Services</a></h3>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </section>
+
+
+
+<!--------------testimonials-->
+
+<section class="testimonials">
+    <h1> People Feedback</h1>
+    <p>People statement about our Plateform.</p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/user1.jpg">
+            <div>
+                <p>This is very interactive plateform for us to grow of our Career.</p>
+                <h3>Rishabh</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+
+
+        </div>
+        <div class="testimonial-col">
+            <img src="images/user2.jpg">
+            <div>
+                <p>It is really good diversing plateform to know about opportunities.</p>
+                <h3>Helen</h3>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+    </div>
+
+</section>
+
+<!---------Call-->
+
+<section class="cta">
+    <h1>Give your valuable feedback for different path of Career<br>to add and make this Plateform more interractive. </h1>
+    <a href="index8.html" class="hero-btn">CONTACT US</a>
+
+</section>
+
+<!---------Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Paths to go for Growth.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/Education-Gallery-2068111720184503/"class="fa fa-facebook"></a>
+        <a href=""class="fa fa-twitter"></a>
+        <a href=""class="fa fa-instagram"></a>
+        <a href=""class="fa fa-linkedin"></a>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<!----------------Javascript for Toggle Menu ------------->
+        <script>
+
+            var navLinks=document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+
+            }
+        </script>
+    </body>
+</html>

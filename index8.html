@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>University Website Design - EasyTutorials</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?
+        family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <div class="logo">
+                    <h>Education<br>Gallery</h>
+                    </div>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME&nbsp;&nbsp;</a></li>
+                        <li><a href="index2.html">ABOUT&nbsp;&nbsp;</a></li>
+                        <li><a href="index4.html">COURSE &nbsp;&nbsp;</a></li>
+                        <li><a href="index6.html">OPPORTUNITIES &nbsp;&nbsp;</a></li>
+                        <li><a href="index8.html">CONTACT </a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Contact Us</h1>
+            
+        </section>
+
+        <!-------------contact us-->
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>Educationgallery@gmail.com</h5>
+                            <p>Email us your query</p>
+                        </span>
+                    </div>                      
+                </div>
+                <div class="contact-col">
+
+                    <form action="Form-Handler.php" method="post">
+                        <input type="text"  name="name" placeholder="Enter your name" required>
+                        <input type="email" name="email" placeholder="Enter email Address" required>
+                        <input type="text" name="subject" placeholder="Enter your subject" required>
+                        <textarea rows="8" placeholder="Message"></textarea>
+                        <button type="submit" class="hero-btn red-btn"> Send Message</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+
+
+<!---------Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Paths to go for Growth.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/Education-Gallery-2068111720184503/"class="fa fa-facebook"></a>
+        <a href=""class="fa fa-twitter"></a>
+        <a href=""class="fa fa-instagram"></a>
+        <a href=""class="fa fa-linkedin"></a>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<!----------------Javascript for Toggle Menu ------------->
+        <script>
+
+            var navLinks=document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+
+            }
+        </script>
+    </body>
+</html>

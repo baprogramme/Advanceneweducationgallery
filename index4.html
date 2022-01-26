@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>University Website Design - EasyTutorials</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?
+        family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <div class="logo">
+                    <h>Education<br>Gallery</h>
+                    </div>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME&nbsp;&nbsp;</a></li>
+                        <li><a href="index2.html">ABOUT&nbsp;&nbsp;</a></li>
+                        <li><a href="index4.html">COURSE &nbsp;&nbsp;</a></li>
+                        <li><a href="index6.html">OPPORTUNITIES &nbsp;&nbsp;</a></li>
+                        <li><a href="index8.html">CONTACT </a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Courses</h1>
+            
+        </section>
+
+        <!-------------Course-->
+        <section class="course">
+            <h1>Courses We get on Plateforms</h1>
+            <p></p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3><a href="https://www.coursera.org/">COURSERA</a></h3>
+                    <p>Coursera offers free online courses, many of them led by top colleges or companies like Google. Learners can access all course materials and there's a small fee for a certificate of completion.</p>
+                </div>
+                <div class="course-col">
+                    <h3><a href="https://www.nptel.ac.in">NPTEL</a></h3>
+                    <p>It can provide video courses in all major branches of engineering and physical sciences at the undergraduate and postgraduate levels and management courses at the postgraduate level.</p>
+                </div>
+                <div class="course-col">
+                    <h3><a href="https://www.udemy.com">UDEMY</a></h3>
+                    <p>Udemy is an online learning and teaching marketplace with over 183000 courses and 40 million students. Learn programming, marketing, data science and more.</p>
+                </div>
+            </div>
+
+<!-------------Career------------>
+<section class="Career">
+    <h1>Popular Sectors of Career</h1>
+    <p>Engineering, Medical and Civil sector is most known sector of career.</p>
+
+    <div class="row">
+        <div class="Career-col">
+            <img src="images/engineering.jpg">
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <h3>Engineering</h3>
+            <p><a href="https://collegedunia.com/engineering-colleges">⚪ Know about Engineering Colleges</a></p>
+            <p><a href="https://www.successcds.net/top-colleges/placement-records-top-engineering-colleges.html">⚪ Placement Records of Top Engineering Colleges</a></p>
+            <p><a href="https://workat.tech/general/article/choosing-engineering-college-branch-ageyubs2sxip">⚪ Classification of Engineering Colleges</a></p>
+            <p><a href="https://www.shiksha.com/engineering-chp ">⚪ Branches in Engineering</a></p>
+        </div>
+        <div class="Career-col">
+            <img src="images/Medical.png">
+            <h3>Medical</h3>
+            <p><a href="https://www.shiksha.com/medicine-health-sciences/colleges/mbbs-colleges-india">⚪ Know about Medical Colleges</a></p>
+            <p><a href="https://medicine.careers360.com/articles/post-graduate-medical-courses">⚪ P.G Courses in Medical</a></p>
+            <p><a href="https://www.oscebank.com/blog/top-10-online-resources-for-medical-students">⚪ Resources for Medical students</a></p>
+        </div>
+        <div class="Career-col">
+            <img src="images/ias.jpg">
+            <h3>Civil Services</h3>
+            <p><a href="https://www.clearias.com/civil-services-exam/">⚪ Know about Civil Services</a></p>
+            <p><a href="https://www.clearias.com/list-of-useful-websites-for-ias-preparation/">⚪ Preparation Plateforms for Civil Services Exam</a></p>
+            <p><a href="https://www.careerlauncher.com/upsc/whatdotheydo/">⚪ Role of Civil Servants</a></p>
+        </div>
+    </div>
+    
+</section>
+        
+
+<!---------Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Paths to go for Growth.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/Education-Gallery-2068111720184503/"class="fa fa-facebook"></a>
+        <a href=""class="fa fa-twitter"></a>
+        <a href=""class="fa fa-instagram"></a>
+        <a href=""class="fa fa-linkedin"></a>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<!----------------Javascript for Toggle------------->
+        <script>
+
+            var navLinks=document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+
+            }
+        </script>
+    </body>
+</html>

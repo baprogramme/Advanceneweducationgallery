@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>University Website Design - EasyTutorials</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?
+        family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <div class="logo">
+                    <h>Education<br>Gallery</h>
+                    </div>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME&nbsp;&nbsp;</a></li>
+                        <li><a href="index2.html">ABOUT&nbsp;&nbsp;</a></li>
+                        <li><a href="index4.html">COURSE &nbsp;&nbsp;</a></li>
+                        <li><a href="index6.html">OPPORTUNITIES &nbsp;&nbsp;</a></li>
+                        <li><a href="index8.html">CONTACT </a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Get new opportunities for your career</h1>
+            
+        </section>
+
+        <!-------------opportunities-content-->
+        <section class="opportunities-content">
+            <div class="row">
+                <div class="opportunities-left">
+                <img src="images/certificate2.jpg">
+                <h2>Plateforms to know about new opportunities</h2>
+                <p><a href="https://www.sarkariresult.com/">⚪ Sarkari Result</a></p>
+                    <br>
+                    <p><a href="https://in.indeed.com/hire?co=IN&hl=en&from=gnav-rezemp--zurg">⚪ indeed</a></p>
+                    <br>
+                    <p><a href="https://hiring.monster.com/SignIn.aspx?WT.mc_n=mktal_emp_rk_cart%2cmktal_emp_rk_&redirect=https%3a%2f%2fhiring.monster.com%2forder20%3fHasUserAccount%3d2%26promotionID%3d22306%26adid%3d0%26Wt.mc_n%3dmktal_emp_rk_cart%2cmktal_emp_rk_">⚪ Monster</a></p>
+                    <br>
+                    <p><a href="https://www.linkedin.com/?src=aff-ref&veh=jobs_aff_ir_pid_2104074_plc_Dotdash_adid_637360&trk=jobs_aff_ir_pid_2104074_plc_Dotdash_adid_637360&clickid=3tvVjLyGwxyIUO-WCzznVUCXUkG3vL1tOQKLz40&mcid=6851950663669174272&irgwc=1">⚪ Linkedin</a></p>
+                    <br>
+                    <p><a href="https://www.glassdoor.co.in/index.htm?countryRedirect=true">⚪ glassdoor</a></p>
+                </div>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <div class="comment-box">       
+                        <h3>Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your comment">
+                            </textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                        </form>
+                    </div>
+                </div>
+        </section>
+            
+<!---------Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Paths to go for Growth</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/Education-Gallery-2068111720184503/"class="fa fa-facebook"></a>
+        <a href=""class="fa fa-twitter"></a>
+        <a href=""class="fa fa-instagram"></a>
+        <a href=""class="fa fa-linkedin"></a>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<!----------------Javascript for Toggle Menu ------------->
+        <script>
+
+            var navLinks=document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+
+            }
+        </script>
+    </body>
+</html>
