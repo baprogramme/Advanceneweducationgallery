@@ -106,7 +106,7 @@ nav .fa{
     }
     .nav-links{
         position: fixed;
-        background:#4106a1;
+        background:#111111;
         height: 100vh;
         width:200px;
         top:0;
@@ -117,7 +117,7 @@ nav .fa{
     }
     nav .fa{
         display: block;
-        color: rgb(17, 16, 16);
+        color: rgb(243, 237, 237);
         margin: 10 px;
         font-size:22px;
         cursor: pointer;
